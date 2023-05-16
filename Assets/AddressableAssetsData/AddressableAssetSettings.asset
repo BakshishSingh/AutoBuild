@@ -15,7 +15,7 @@ MonoBehaviour:
   m_DefaultGroup: 1ef29ce721b564dfc90b0e3c03aee35a
   m_currentHash:
     serializedVersion: 2
-    Hash: 00000000000000000000000000000000
+    Hash: d3422bcbec505a9a6a3819732112d034
   m_OptimizeCatalogSize: 0
   m_BuildRemoteCatalog: 0
   m_BundleLocalCatalog: 0
@@ -69,8 +69,8 @@ MonoBehaviour:
       - m_Id: 64599703f8ba8429d91e80cbc36a2134
         m_Value: http://[PrivateIpAddress]:[HostingServicePort]
     - m_InheritedParent: 
-      m_Id: 78771a235a2ce49a4905711966aff9ab
-      m_ProfileName: Development
+      m_Id: 375a5d13fd852cd4198fe26f37b2c7ba
+      m_ProfileName: Android
       m_Values:
       - m_Id: dd59b509000a04ab4b981fbd63ec9059
         m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
@@ -81,7 +81,21 @@ MonoBehaviour:
       - m_Id: 8d4d52aed8ebe4a178c8d13941b6abc1
         m_Value: ServerData/[BuildTarget]
       - m_Id: 64599703f8ba8429d91e80cbc36a2134
-        m_Value: http://[PrivateIpAddress]:[HostingServicePort]
+        m_Value: https://7ebd7ddc-e0b2-4480-9e2b-ef00fee94375.client-api.unity3dusercontent.com/client_api/v1/buckets/a2957383-aa1e-40e7-8c00-580bef7ffb38/release_by_badge/latest/entry_by_path/content/?path=
+    - m_InheritedParent: 
+      m_Id: 9e93537bee4f0b64496b2e068ddf84d3
+      m_ProfileName: iOS
+      m_Values:
+      - m_Id: dd59b509000a04ab4b981fbd63ec9059
+        m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
+      - m_Id: 48e049ea0ed134b2d93246b56379d654
+        m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
+      - m_Id: 5adf210b522f14baeb3ff5ba1775ba0b
+        m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
+      - m_Id: 8d4d52aed8ebe4a178c8d13941b6abc1
+        m_Value: ServerData/[BuildTarget]
+      - m_Id: 64599703f8ba8429d91e80cbc36a2134
+        m_Value: https://7ebd7ddc-e0b2-4480-9e2b-ef00fee94375.client-api.unity3dusercontent.com/client_api/v1/buckets/8ec65f6c-2b65-49b4-ab31-3c36d9ffe078/release_by_badge/latest/entry_by_path/content/?path=
     m_ProfileEntryNames:
     - m_Id: dd59b509000a04ab4b981fbd63ec9059
       m_Name: BuildTarget
@@ -116,7 +130,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: d3be78aadab514e6e9a1b344661a8809, type: 2}
   - {fileID: 11400000, guid: dc0e48d86168d49dc9437479566d6276, type: 2}
   - {fileID: 11400000, guid: ef256cf032ab24c769e1b74123919460, type: 2}
-  m_ActiveProfileId: 78771a235a2ce49a4905711966aff9ab
+  m_ActiveProfileId: 375a5d13fd852cd4198fe26f37b2c7ba
   m_HostingServicesManager:
     m_HostingServiceInfos: []
     m_Settings: {fileID: 11400000}
